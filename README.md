@@ -1,5 +1,5 @@
 #kettle-master
-#####这是一个对客户端版的kettle创建的job和transformation进行统一管理的工具（支持kettle7.0.0.0.25版本）
+#####这是一个对客户端版的kettle创建的job和transformation进行统一管理的工具（支持kettle8.0版本）
 
 ----------
 
@@ -12,26 +12,7 @@
 ----------
 
 ####使用工具（这里我觉得直接看pom文件比较好）
-``` xml
-<java-version>1.8</java-version>
-<junit-version>4.12</junit-version>
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-<org.springframework-version>4.3.1.RELEASE</org.springframework-version>
-<beetlsql-version>2.8.11</beetlsql-version>
-<mysql-connector-java-version>5.1.38</mysql-connector-java-version>
-<druid-version>1.0.29</druid-version>
-<commons-configuration.version>1.10</commons-configuration.version>
-<commons.fileupload-version>1.3.2</commons.fileupload-version>
-<commons-beanutils-core-version>1.8.3</commons-beanutils-core-version>
-<commons-codec-version>1.10</commons-codec-version>
-<json-lib-version>2.4</json-lib-version>
-<javax.mail-version>1.5.6</javax.mail-version>
-<jackson.databind-version>2.8.4</jackson.databind-version>
-<kettle-version>7.0.0.0-25</kettle-version>
-<quartz-version>2.2.1</quartz-version>
-<commons-dbutils-version>1.6</commons-dbutils-version>
-```
+
 ####主要是spring+mvc+beetlsql的整合使用，这里必须多说一句，beetlsql的确是非常的好用
 
 ----------
@@ -73,7 +54,4 @@
 
 ####鸣谢
 
-[项目一些代码，参考了这位大神开发的管理平台。万分感谢，我只是做了个升级的工作（从4.4支持到了7.0）][1]
-
-
-  [1]: https://github.com/uKettle/kettle
+[项目一些代码，参考了这位大神开发的管理平台。万分感谢，我只是做了个升级的工作（从7.0支持到了8.0）][1]
